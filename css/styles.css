@@ -3,15 +3,20 @@
 
 /* Images ----------------------------------------- */
 .logo {
-max-width: 15%;
-max-height: 15%;
+max-width: 50%;
+max-height: 50%;
 
 } 
-/*
-.owner {
 
+.owner {
+border-radius: 45%;
+max-width: 100px;
+max-height: 100px;
+margin-left: 15px;
+border-color: solid rgb(15, 127, 219) 10px 10px;
 }
-/*
+
+
 /* Pseudo-elements -------------------------------- */
 
 .intro::first-line {
