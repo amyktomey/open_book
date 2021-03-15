@@ -1,8 +1,14 @@
 
 /* base page setup -------------------------------- */
 
-/* Images Basics ---------------------------------- */
+/* Images ----------------------------------------- */
+.logo () {
 
+}
+
+.owner {
+
+}
 /* Pseudo-elements -------------------------------- */
 
 .intro::first-line {
@@ -11,3 +17,8 @@
  }
  
  /* Media Queries ---------------------------------- */
+
+ @media-screen: {
+    max-width: 350px;
+    background-color: eggshell;
+ }
