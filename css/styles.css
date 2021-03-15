@@ -2,13 +2,16 @@
 /* base page setup -------------------------------- */
 
 /* Images ----------------------------------------- */
-.logo () {
+.logo {
+max-width: 15%;
+max-height: 15%;
 
-}
-
+} 
+/*
 .owner {
 
 }
+/*
 /* Pseudo-elements -------------------------------- */
 
 .intro::first-line {
@@ -18,7 +21,9 @@
  
  /* Media Queries ---------------------------------- */
 
+ /*
  @media-screen: {
     max-width: 350px;
     background-color: eggshell;
  }
+ */
