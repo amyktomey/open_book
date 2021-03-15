@@ -1,10 +1,26 @@
 
 /* base page setup -------------------------------- */
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
 
+h1 {
+    background-color: darkgreen;
+    font: 35px, white, bold, italic;
+}
 
-h3: {
-    margin-top: 10px;
-    margin-bottom: 10px;
+h2 {
+    Float: center;
+}
+
+h3 {
+    Float: left;
+}
+
+p{ 
+    margin-left: 10px;
+    margin-right: 10px;
 }
 /*
 nav: {
@@ -14,16 +30,16 @@ nav: {
 
 /* Images ----------------------------------------- */
 .logo {
-max-width: 50%;
-max-height: 50%;
+    max-width: 50%;
+    max-height: 50%;
 
 } 
 
 .owner {
-border-radius: 45%;
-max-width: 100px;
-max-height: 100px;
-margin-left: 15px;
+    border-radius: 45%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 15px;
 
 /* this bit isn't working
 border-color: solid rgb(15, 127, 219) 10px 10px; */
