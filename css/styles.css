@@ -1,0 +1,13 @@
+
+/* base page setup -------------------------------- */
+
+/* Images Basics ---------------------------------- */
+
+/* Pseudo-elements -------------------------------- */
+
+.intro::first-line {
+    font-weight: bold;
+    font-size: 1.4em;
+ }
+ 
+ /* Media Queries ---------------------------------- */
