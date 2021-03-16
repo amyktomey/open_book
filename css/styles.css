@@ -6,6 +6,9 @@ body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
+p {
+    margin: 1rem;
+}
 
 h1 {    
     background-color: rgb(24, 94, 24);
@@ -29,7 +32,7 @@ h4 {
 }
 
 ul {
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 /*
 nav: {
