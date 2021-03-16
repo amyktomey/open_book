@@ -2,7 +2,7 @@
 /* base page setup -------------------------------- */
 body {
     box-sizing: border-box;
-    background-color: rgb(178, 248, 182);
+    background-color: rgb(29, 167, 155);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 14px;
 }
@@ -11,8 +11,8 @@ p {
 }
 
 h1 {    
-    background-color: rgb(24, 94, 24);
-    font: 40px, white, bold, italic;
+    background-color: rgb(4, 104, 95);
+    font: 40px, rgb(3, 29, 31), bold, italic;
 }
 
 h2 {
@@ -55,14 +55,14 @@ nav: {
 
 .logo,
 .owner {
-    border: solid rgb(4, 58, 31) 10px 10px;     
+    border: solid rgb(7, 101, 104) 10px 10px;     
 }
 
 
 /* Pseudo-elements -------------------------------- */
 
 .intro::first-line {
-    font-color: rgb(8, 36, 8);
+    color: rgb(168, 8, 115);
     font-weight: bold;
     font-size: 1.4em;
  }
