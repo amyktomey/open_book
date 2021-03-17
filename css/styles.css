@@ -1,6 +1,7 @@
 
 /* base page setup -------------------------------- */
 body {
+    display: flex, inline-block;
     box-sizing: border-box;
     background-color: rgb(29, 167, 155);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -12,58 +13,43 @@ p {
 
 h1 {    
     background-color: rgb(4, 104, 95);
-    font: 40px, rgb(3, 29, 31), bold, italic;
+    font: 40px, rgb(3, 29, 31);
+    font-style:italic;
+    font-weight: bold;
 }
 
-h2 {
-    font-size: 30px;
+h2, h3, h4 {
     float: left;
-}
-
-h3 {
-    font-size: 28px;
-    Float: left; 
     margin: 1rem;
+} 
+
+h2 { f
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
 }
 h4 {
-    font-size: 25px;
-    Float: left; 
-    margin: 1rem;
+    font-size: 20px;
 }
 
 ul {
     margin-top: 1rem;
+    display: inline-block;
+    flex-direction: left;
 }
-
-/* Carousel --------------------------------------- */
-.cakePhoto }
-    export const CarouserContainerInner = styled(Flex)`
-    overflow-x: scroll;
-    ms-scroll-snap-type: x mandatory;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
-
-    & > * {
-        scroll-snap-align: center;
-    }
-    `
-}
-
-
-/*
-nav: {
-
-}
-*/
 
 /* Images ----------------------------------------- */
+
+.logo,
+.owner {
+    border: solid rgb(243, 130, 224) 10px 10px;     
+}
+
 .logo {
     max-width: 50%;
     max-height: 50%;
+    flex-direction: center;
 } 
 
 .owner {
@@ -73,10 +59,7 @@ nav: {
     margin-left: 15px;
 }
 
-.logo,
-.owner {
-    border: solid rgb(243, 130, 224) 10px 10px;     
-}
+
 
 
 /* Pseudo-elements -------------------------------- */
@@ -89,9 +72,19 @@ nav: {
  
  /* Media Queries ---------------------------------- */
 
- /*
- @media: {
-    max-width: 350px;
-    background-color: eggshell;
+@media only screen and (max-width: 350px) {
+
+      
  }
- */
+@media only screen and (min-width: 351px, max-width: 600px)  {
+    logo {
+        max-width: 566px;
+        max-height: 347px;
+    }        
+}
+@media only screen and (min-width: 601px) {
+    logo {
+        max-width: 416.5px;
+        max-height: 260.25px;
+    }
+}
