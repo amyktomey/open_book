@@ -3,7 +3,7 @@ body {
     display:inline-block;
     box-sizing: border-box;
     background-color: rgb(29, 167, 155);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Book Antiqua', 'Goudy Old Style', Arial, sans-serif;
     font-size: 14px;
 }
 p {
@@ -40,8 +40,8 @@ ul {
 
 .logo,
 .pan-logo {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 40%;
+    max-height: 40%;
     align-items: center;
 } 
 
