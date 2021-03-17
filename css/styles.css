@@ -34,12 +34,8 @@ ul {
 }
 
 /* logos, photos and docs ----------------------------------------- */
-
-.logo,
-.owner,
 .pan-logo {
-    border: solid rgb(243, 130, 224) 10px;
-   
+    border-radius: 20%;
 }
 
 .logo,
@@ -49,15 +45,20 @@ ul {
     align-items: center;
 } 
 
+.logo,
+.owner,
+.pan-logo {
+    border: solid rgb(243, 130, 224) 10px;
+   
+}
+
 .owner {
     border-radius: 45%;
     max-width: 100px;
     max-height: 100px;
     margin-left: 15px;
 }
-.pan-logo {
-    border-radius: 25%;
-}
+
 
 /* Pseudo-elements -------------------------------- */
 
