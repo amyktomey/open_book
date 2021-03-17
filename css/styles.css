@@ -33,17 +33,20 @@ ul {
     justify-content: flex-start;
 }
 
-/* Images ----------------------------------------- */
+/* logos, photos and docs ----------------------------------------- */
 
 .logo,
-.owner {
-    border: solid rgb(243, 130, 224) 10px;     
+.owner,
+.pan-logo {
+    border: solid rgb(243, 130, 224) 10px;
+   
 }
 
-.logo {
+.logo,
+.pan-logo {
     max-width: 50%;
     max-height: 50%;
-    justify-content: center;
+    align-items: center;
 } 
 
 .owner {
@@ -51,6 +54,9 @@ ul {
     max-width: 100px;
     max-height: 100px;
     margin-left: 15px;
+}
+.pan-logo {
+    border-radius: 25%;
 }
 
 /* Pseudo-elements -------------------------------- */
