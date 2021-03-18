@@ -4,8 +4,7 @@ body {
     box-sizing: border-box;
     background-color: rgb(29, 167, 155);
     font-family:'Book Antiqua', 'Goudy Old Style', Arial, sans-serif;
-    font-size: 14px;
-}
+ }
 p {
     margin: 1rem;
 }
@@ -31,6 +30,10 @@ ul {
     margin-top: 1rem;
     display: inline-block;
     justify-content: flex-start;
+}
+
+form {
+   display: inline-block; 
 }
 
 /* logos, photos and docs ----------------------------------------- */
