@@ -45,7 +45,7 @@ form {
 .pan-logo {
     max-width: 40%;
     max-height: 40%;
-    align-items: center;
+    justify-content: center;
 } 
 
 .logo,
@@ -74,7 +74,7 @@ form {
  /* Media Queries ---------------------------------- */
 
 @media only screen and (max-width: 349px) {
-      
+      background-color: lightpink;
  }
 @media only screen and (min-width: 350px)  {
     logo {
