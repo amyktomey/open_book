@@ -1,5 +1,6 @@
 /* base page setup -------------------------------- */
 body {
+    flex: auto;
     display:inline-block;
     box-sizing: border-box;
     background-color: rgb(29, 167, 155);
@@ -39,6 +40,8 @@ form {
 /* logos, photos and docs ----------------------------------------- */
 .pan-logo {
     border-radius: 20%;
+    max-width: 25%;
+    max-height: 25%;
 }
 
 .logo,
@@ -74,16 +77,17 @@ form {
  /* Media Queries ---------------------------------- */
 
 @media only screen and (max-width: 349px) {
-      background-color: lightpink;
- }
-@media only screen and (min-width: 350px)  {
-    logo {
+}
+@media only screen and (min-width: 350px) {
+    .logo,
+    .pan-logo { 
         max-width: 566px;
         max-height: 347px;
     }        
 }
 @media only screen and (min-width: 600px) {
-    logo {
+    .logo 
+    .pan-logo { 
         max-width: 416.5px;
         max-height: 260.25px;
     }
