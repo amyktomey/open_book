@@ -1,13 +1,13 @@
 /* base page setup -------------------------------- */
+* {
+    box-sizing: border-box;
+}
+
 body {
     flex: auto;
     display:inline-block;
-    box-sizing: border-box;
     background-color: rgb(29, 167, 155);
     font-family:'Book Antiqua', 'Goudy Old Style', Arial, sans-serif;
- }
-p {
-    margin: 1rem;
 }
 
 h1 {    
@@ -27,40 +27,31 @@ h4 {
     font-size: 20px;
 }
 
-ul {
-    margin-top: 1rem;
-    display: inline-block;
-    justify-content: flex-start;
-}
-
-form {
-   display: inline-block; 
+ul li {
+    margin-bottom: 2px;
+    padding: 1rem
+    text-align left;
 }
 
 /* logos, photos and docs ----------------------------------------- */
-.pan-logo {
-    border-radius: 20%;
-    max-width: 25%;
-    max-height: 25%;
-}
-
-.logo,
-.pan-logo {
-    max-width: 40%;
-    max-height: 40%;
-    justify-content: center;
-} 
 
 .logo,
 .owner,
 .pan-logo {
-    border: solid rgb(243, 130, 224) 10px;
-   
+    border: solid rgb(243, 130, 224) 8px;
 }
+.logo,
+.pan-logo {
+    max-height: auto;
+    max-width: 30%; 
+    border-radius: 7%;
 
+} 
+.pan-logo {
+    border-radius: 20%;
+}
 .owner {
     border-radius: 45%;
-    max-width: 100px;
     max-height: 100px;
     margin-left: 15px;
 }
@@ -69,26 +60,21 @@ form {
 /* Pseudo-elements -------------------------------- */
 
 .intro::first-line {
-    color: rgb(168, 8, 115);
+    color: #a80873;
     font-weight: bold;
     font-size: 1.4em;
+    font-style: italic;
  }
  
  /* Media Queries ---------------------------------- */
 
-@media only screen and (max-width: 349px) {
+@media screen and (min-width: 320px) and (max-width: 599px) {
+    background-color: cornsilk;    }
+
+@media screen and (min-width: 601px) {
+    .pan-logo: max-width: 15%;      }
 }
-@media only screen and (min-width: 350px) {
-    .logo,
-    .pan-logo { 
-        max-width: 566px;
-        max-height: 347px;
-    }        
-}
-@media only screen and (min-width: 600px) {
-    .logo 
-    .pan-logo { 
-        max-width: 416.5px;
-        max-height: 260.25px;
+@media screen and (min-width: 900px) {
+    orientation: landscape;
+    background-color: floralwhite;
     }
-}
