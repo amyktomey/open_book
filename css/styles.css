@@ -68,17 +68,18 @@ footer {
 
 .logo,
 .owner,
-.pan-logo {
+.pan-logo,
+.cakes {
     border: solid rgb(243, 130, 224) 8px;
     margin-left: 15px;
 }
 .logo,
-.pan-logo {
+.pan-logo,
+.cakes{
     max-height: auto;
     max-width: 25%; 
     margin-top: 10px;
     border-radius: 7%;
-    }
 } 
 .pan-logo {
     border-radius: 20%;
@@ -86,6 +87,11 @@ footer {
 .owner {
     border-radius: 45%;
     max-height: 100px;
+}
+
+.cakes {
+    max-height: 50%;
+    border: solid rgb(243, 130, 224) 3px;
 }
 
 
