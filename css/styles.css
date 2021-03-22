@@ -10,27 +10,46 @@ body {
     font-family:'Book Antiqua', 'Goudy Old Style', Arial, sans-serif;
 }
 
+h1, h2, h3, h4 {
+    margin-left: 15px;
+    font-style: italic;
+}
+
 h1 {    
     background-color: rgb(4, 104, 95);
     font-size: 40px;
     color: rgb(3, 29, 31);
-    font-style:italic;
     font-weight: bold;
+    
 }
 
 h2, h3, h4 {
     float: left;
     margin: 1rem;
     font-size: 25px;
+   
 } 
 h4 {
     font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.content-block {
+    margin-left: 20px;
+    margin-right: 20px;
+    
 }
 
 ul li {
     margin-bottom: 2px;
+    margin-left: 30px;
     padding: 1rem
     text-align left;
+}
+
+footer {
+   margin-left: 10px;
 }
 
 /* logos, photos and docs ----------------------------------------- */
@@ -39,12 +58,14 @@ ul li {
 .owner,
 .pan-logo {
     border: solid rgb(243, 130, 224) 8px;
+    margin-left: 15px;
 }
 .logo,
 .pan-logo {
     max-height: auto;
     max-width: 30%; 
     border-radius: 7%;
+    margin-top: 10px;
 
 } 
 .pan-logo {
@@ -53,7 +74,6 @@ ul li {
 .owner {
     border-radius: 45%;
     max-height: 100px;
-    margin-left: 15px;
 }
 
 
@@ -72,7 +92,8 @@ ul li {
     background-color: cornsilk;    }
 
 @media screen and (min-width: 601px) {
-    .pan-logo: max-width: 15%;      }
+    .pan-logo: max-width: 10%;
+    footer: margin-left: 5px;
 }
 @media screen and (min-width: 900px) {
     orientation: landscape;
