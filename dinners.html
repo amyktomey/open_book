@@ -25,7 +25,8 @@
     </div>
     <div class = "form-setup">  
       <form action="dinners.html" method="post" >
-        <h4>Tell Me More</h4>
+        <h4>Tell Me More:</h4>
+        <br>
           <label for="name">Name:</label>      
           <input type="text" id="name" name="user_name">
           <label for="email">Email:</label>
@@ -40,8 +41,35 @@
               <option value="Event">Events</option>
             </optgroup>
               <button type="submit">Submit Request</button>
-            <br> <label for="restrict">Dietary Restrictions:</label>
-          <textarea id="restrict" name="restrictions"></textarea>
+            <br>
+         <label for="restrict">Dietary Restrictions:</label>
+            <div class = "restrict">      
+              <input type="Checkbox" id="type"
+              name="diabetic" value="diabetic">
+              <label for="type">Diabetic</label>
+              
+              <input type="Checkbox" id="type"
+              name="keto" value="keto">
+              <label for="type">KETO</label>
+              
+              <input type="checkbox" id="type"
+              name="gluten" value="gluten">
+              <label for="type">Gluten Free</label>
+              
+              <input type="Checkbox" id="type"
+              name="lactose" value="lactose">
+              <label for="type">Lactose Intolerant</label>
+              
+              <input type="Checkbox" id="type"
+              name="allergies" value="allergies">
+              <label for="type">Allergies</label>
+              
+              <input type="Checkbox" id="type"
+              name="other" value="other">
+              <label for="type">Other</label>
+              </div>
+          <textarea id="restrict" name="restrictions">Add allergies and other restrictions here:</textarea>
+          <br>
         <button type="submit">Send Request</button>
       </form>
     </div>
