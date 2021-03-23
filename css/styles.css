@@ -10,18 +10,24 @@ body {
     font-family:'Book Antiqua', 'Goudy Old Style', Arial, sans-serif;
 }
 
+footer {
+    margin-left: 10px;
+ }
+ 
+
+/* Headers -------------------------------- */
+
 h1, h2, h3, h4 {
     margin-left: 15px;
     font-style: italic;
-
 }
+
 
 h1 {    
     background-color: rgb(4, 104, 95);
     font-size: 40px;
     color: rgb(3, 29, 31);
     font-weight: bold;
-    
 }
 
 h2, h3, h4 {
@@ -36,18 +42,21 @@ h4 {
     padding: 10px;
 }
 
+/* text & list styling-------------------------------- */
+
 .content-block {
     margin-left: 20px;
     margin-right: 20px;
-    
+    margin-top: 10px;   
 }
 
-ul li {
+nav {
     margin-bottom: 2px;
-    margin-left: 30px;
+    margin-left: 15px;
     padding: 1rem
-    text-align left;
 }
+
+/* forms and buttons styling-------------------------------- */
 
 .form-setup {
     display:inline-flex;
@@ -58,10 +67,6 @@ button {
    background-color:  rgb(243, 130, 224);
    font-weight: bold; 
    margin-left: 60px;
-}
-
-footer {
-   margin-left: 10px;
 }
 
 /* logos, photos and docs ----------------------------------------- */
@@ -79,10 +84,13 @@ footer {
     max-height: auto;
     max-width: 25%; 
     margin-top: 10px;
-    border-radius: 7%;
-} 
+    display: flex;
+}
+.logo,
 .pan-logo {
-    border-radius: 20%;
+    border-radius: 7%;
+    justify-content: center;
+    align-content: center;
 }
 .owner {
     border-radius: 45%;
@@ -91,7 +99,11 @@ footer {
 
 .cakes {
     max-height: 50%;
-    border: solid rgb(243, 130, 224) 3px;
+    border: solid rgb(243, 130, 224) 5px;
+    border-radius: 25px;
+    margin: 25px;
+    display: inline-block;
+    align-content: space-between;
 }
 
 

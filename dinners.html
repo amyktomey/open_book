@@ -12,6 +12,7 @@
   </figure>  
   <h1>Open Book Catering</h1>
     <h2>Dinner Parties & Events</h2>
+  <br>
     <div class = "content-block">
       <p>Open Book Catering will give customers the option of three different experiences taken from the pages 
         of books and stories. I will use these to create an atmosphere reflecting particular genres. This 
@@ -26,51 +27,46 @@
     <div class = "form-setup">  
       <form action="dinners.html" method="post" >
         <h4>Tell Me More:</h4>
+        <label for="genre">Select Genre or Event:</label>
+        <select id="type" name="genre">
+          <optgroup label="Genre"> 
+            <option value="fanatasy">Fantasy</option>
+            <option value="mythological">Mythological</option>
+            <option value="historical">Historical</option>
+            <option value="event">Events</option>
+          </optgroup>
+        </select>
+      </form> 
+    </div>
+    <div class = "restrict">   
+      <label>Dietary Restrictions:</label>
+        <input type="Checkbox" id="type" name="diabetic" value="diabetic">
+        <label for="type">Diabetic</label>
+        
+        <input type="Checkbox" id="type" name="keto" value="keto">
+        <label for="type">KETO</label>
+        
+        <input type="checkbox" id="type" name="gluten" value="gluten">
+        <label for="type">Gluten Free</label>
+        
+        <input type="Checkbox" id="type" name="lactose" value="lactose">
+        <label for="type">Lactose Intolerant</label>
+        
+        <input type="Checkbox" id="type" name="allergies" value="allergies">
+        <label for="type">Allergies</label>
+        
+        <input type="Checkbox" id="type" name="other" value="other">
+        <label for="type">Other</label>
+        
+        <label for="info" id="info" name="info" value="info"></label>
+        <textarea id="info" name="information">Specify allergies and/or other restrictions here:</textarea>
+    </div>
+  <br>
+        <label for="name">Name:</label>      
+        <input type="text" id="name" name="user_name">
+        <label for="email">Email:</label>
+        <input type="email" id="mail" name="user_email">
         <br>
-          <label for="name">Name:</label>      
-          <input type="text" id="name" name="user_name">
-          <label for="email">Email:</label>
-          <input type="email" id="mail" name="user_email">
-          <br>
-          <label for="genre">Select Genre or Event:</label>
-          <select id="type" name="genre">
-            <optgroup label="Genre"> 
-              <option value="fanatasy">Fantasy</option>
-              <option value="mythological">Mythological</option>
-              <option value="historical">Historical</option>
-              <option value="Event">Events</option>
-            </optgroup>
-              <button type="submit">Submit Request</button>
-            <br>
-         <label for="restrict">Dietary Restrictions:</label>
-            <div class = "restrict">      
-              <input type="Checkbox" id="type" name="diabetic" value="diabetic">
-              <label for="type">Diabetic</label>
-              
-              <input type="Checkbox" id="type" name="keto" value="keto">
-              <label for="type">KETO</label>
-              
-              <input type="checkbox" id="type" name="gluten" value="gluten">
-              <label for="type">Gluten Free</label>
-              
-              <input type="Checkbox" id="type" name="lactose" value="lactose">
-              <label for="type">Lactose Intolerant</label>
-              
-              <input type="Checkbox" id="type" name="allergies" value="allergies">
-              <label for="type">Allergies</label>
-              
-              <input type="Checkbox" id="type" name="other" value="other">
-              <label for="type">Other</label>
-
-              <label for="info" id = "info" name = "info" value = "info">Specify allergies and other here:</label>
-              <textarea id="info" name="information"></textarea>
-            </div>
-          <br>
-          <label for="name">Name:</label>      
-          <input type="text" id="name" name="user_name">
-          <label for="email">Email:</label>
-          <input type="email" id="mail" name="user_email">
-          <br>
         <button type="submit">Send Request</button>
       </form>
     </div>
