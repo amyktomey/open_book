@@ -4,8 +4,6 @@
 }
 
 body {
-    flex: auto;
-    display:inline-block;
     background-color: rgb(29, 167, 155);
     font-family:'Book Antiqua', 'Goudy Old Style', Arial, sans-serif;
 }
@@ -20,6 +18,8 @@ footer {
 h1, h2, h3, h4 {
     margin-left: 15px;
     font-style: italic;
+    border-radius: 15px;
+    width:fit-content;
 }
 
 
@@ -32,62 +32,70 @@ h1 {
 
 h2, h3, h4 {
     float: left;
-    margin: 1rem;
+    margin: 10px 0;
     font-size: 25px;
    
 } 
 h4 {
     font-size: 20px;
-    margin-bottom: 10px;
     padding: 10px;
 }
 
 /* text & list styling-------------------------------- */
 
 .content-block {
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;   
+    display:inline-block;
+    margin: 10px, 20px 5px, 20px;
 }
 
 nav {
+    display: inline-block;
     margin-bottom: 2px;
     margin-left: 15px;
-    padding: 1rem
+    padding: 1rem;
 }
 
 /* forms and buttons styling-------------------------------- */
 
-.form-setup {
-    display:inline-flex;
-    margin-left: 40px;
+
+.form-setup,
+.restrict,
+.info,
+.other {
+    display:inline-block;
+    flex-direction: column;
+    margin-left: 30px;
 }
 
 button {
    background-color:  rgb(243, 130, 224);
+   box-shadow:0 0 15px 5px rgba(0,0,0,0.06);
    font-weight: bold; 
    margin-left: 60px;
+   border-radius: 15px;
+}
+.info {
+    margin: 10px;
+    padding: 10px;
+    max-width: 50%;
+    border-radius: 15px;
+    box-shadow:0 0 15px 4px rgb(243, 130, 224);
 }
 
 /* logos, photos and docs ----------------------------------------- */
 
 .logo,
 .owner,
-.pan-logo,
-.cakes {
-    border: solid rgb(243, 130, 224) 8px;
+.pan-logo {
+    border: solid rgb(243, 130, 224) 10px;
     margin-left: 15px;
 }
+
 .logo,
-.pan-logo,
-.cakes{
+.pan-logo {
     max-height: auto;
     max-width: 25%; 
     margin-top: 10px;
-    display: flex;
-}
-.logo,
-.pan-logo {
     border-radius: 7%;
     justify-content: center;
     align-content: center;
@@ -98,11 +106,11 @@ button {
 }
 
 .cakes {
-    max-height: 50%;
     border: solid rgb(243, 130, 224) 5px;
+    margin-left: 15px;
     border-radius: 25px;
     margin: 25px;
-    display: inline-block;
+    flex-direction: column;
     align-content: space-between;
 }
 
@@ -110,13 +118,16 @@ button {
 /* Pseudo-elements -------------------------------- */
 
 .intro::first-line {
-    color: #a80873;
+    color:solid rgb(243, 130, 224);
     font-weight: bold;
     font-size: 1.4em;
     font-style: italic;
  }
  
  /* Media Queries ---------------------------------- */
+
+/* @media screen and (max-width: 320px) {
+    display: inline-block; }
 
 /*
 @media screen and (min-width: 320px) and (max-width: 599px) {
