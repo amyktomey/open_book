@@ -5,7 +5,6 @@
   <link href="css/normalize.css" type="text/css" rel="stylesheet">
   <title>Open Book</title>
   <link href="css/styles.css" type="text/css" rel="stylesheet">
-  <script src="js.picturefill.js"></script>
 </head>
   <body>
     <figure>
@@ -14,7 +13,13 @@
     </figure>  
     <h1>Open Book Creations</h1>
 
-    <h3> Here are some photos, found in her scrapbook.</h3>
+    <h4>This was the beginning...</h4>
+
+    <p>Liz has been decorating cakes since she was a teenager. She has displayed her expertise 
+      at county fairs, and has made cakes for birthdays, weddings, anniversaries, engagements, baby 
+      showers, graduations, reunions and various holidays. Pictured below is a small sampling of 
+      cakes from her scrapbook.
+      </p> 
 <br>
     <div class = "cake-photos">
         <img src="img/wedding_1.jpg" alt= "image of a white wedding cake decorated with pink and blue 
@@ -30,14 +35,24 @@
     <div class = "form-setup">
       <label for="occasion">Occasion:</label>
       <select id="occ_type" name="special">
-      <optgroup label="Pick One"> 
-          <option value="birthday">Birthday</option>
-          <option value="wedding">Wedding</option>
-          <option value="anniversary">Anniversay</option>
-          <option value="shower">Showers</option>
-          <option value="other">Other Occasions</option>
-      </optgroup>
-          <button type="submit">Submit Request</button>
+        <optgroup label="Pick One"> 
+            <option value="birthday">Birthday</option>
+            <option value="wedding">Wedding</option>
+            <option value="anniversary">Anniversay</option>
+            <option value="shower">Showers</option>
+            <option value="other">Other Occasions</option>
+        </optgroup>
+      </select>  
+    </div>
+      <br>
+    <div class= "contact ">
+      <label for="name">Name:</label>      
+      <input type="text" id="name" name="user_name">
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="mail" name="user_email">
+    </div>
+        <button type="submit">Send Request</button>
     </div>
     <br>
     <nav>
@@ -50,6 +65,7 @@
     </nav>
   </body> 
   <footer>
+    <p>All recipies are the property of “Open Book”.</p>
     <p>&copy; 2021, Open Book</p>
   </footer>
   </html>

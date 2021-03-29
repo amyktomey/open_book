@@ -11,6 +11,8 @@ body {
 
 footer {
     margin-left: 10px;
+    font-size: small;
+    font-style: italic;
  }
  
 
@@ -54,12 +56,16 @@ nav {margin: 10px 15px 2px 15px;
     display: inline-block;
     padding: 1rem;
 }
+ li {
+    margin: 5px 10px;
+    justify-content: space-around;
+ }
+
 
 /* forms and buttons styling-------------------------------- */
 
 
 .form-setup,
-.contact,
 .restrict,
 .info,
 .other {
@@ -84,23 +90,34 @@ button {
     border-radius: 15px;
     box-shadow:0 0 15px 4px rgb(243, 130, 224);
 }
+/*
+.name,
+.mail {
+flex-direction: row;
+align-content: space-between;
+margin-bottom: 5px;
+} */
 
-/*.restrict {
-}
+.restrict {   
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    margin: 5px 20px;
+}   
 
 /* logos, photos and docs ----------------------------------------- */
 
 .logo,
 .owner,
 .pan-logo {
-    border: solid rgb(243, 130, 224) 10px;
+    border: solid rgb(243, 130, 224) 8px;
     margin-left: 15px;
 }
 
 .logo,
 .pan-logo {
     max-height: auto;
-    max-width: 25%; 
+    max-width: 50%; 
     margin-top: 10px;
     border-radius: 7%;
     justify-content: center;
@@ -141,15 +158,15 @@ button {
     .owner,
     .pan-logo {
         border: solid rgb(243, 130, 224) 3px;
-        max-width: 35%;
+        max-width: 50%;
         max-height: auto;
         align-content: center;
     }
     .cakes {
         flex-direction: column;
         margin-bottom: 7px;
-        max-height: 100%;
-        max-width: auto;
+        max-height: auto;
+        max-width: 60%;
         align-content: center;
     }
 }
@@ -158,21 +175,22 @@ button {
     .logo,
     .owner,
     .pan-logo {
-        border: solid rgb(243, 130, 224) 10px;
-        max-width: 40%;
+        border: solid rgb(243, 130, 224) 8px;
+        max-width: 30%;
         max-height: auto;
         align-content: center;
     }
-    .pan-logo: {
-        max-width: 10%;
-    }
+    .pan-logo {
+        max-width: 250px;
+    } 
     .cakes {
-        max-height: 80%;
+        max-height: 75%;
         max-width: auto;
         align-items: center; 
         justify-content: space-evenly;
     }
 }
+/*
 @media screen and (min-width: 900px) {
     orientation: landscape;
     background-color: floralwhite;
