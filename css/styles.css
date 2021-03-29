@@ -90,13 +90,12 @@ button {
     border-radius: 15px;
     box-shadow:0 0 15px 4px rgb(243, 130, 224);
 }
-/*
-.name,
-.mail {
-flex-direction: row;
-align-content: space-between;
-margin-bottom: 5px;
-} */
+
+.contact {
+    flex-direction: row;
+    align-content: space-between;
+    margin: 5px;
+}
 
 .restrict {   
     flex-direction: row;
