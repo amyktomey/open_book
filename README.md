@@ -1,7 +1,8 @@
 # open_book
-project website, capstone
+If you are reading this file, please switch to the MASTER branch.  This file has not been updated since a system crash. After recovery, somehow... commits and pushes went to the MASTER.
 
+Thank you for being willing to switch,  I hope you will not be dissappointed.
 
-This is a work in progress for a new concept in catering, coming to Louisville, KY in 2022.
+Respectfully,
 
-Initially, there is the welcome page, with links to esch individual line of business underneath the name "Open Book".
+Amy T.
