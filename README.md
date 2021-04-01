@@ -1,11 +1,21 @@
 # open_book
+This is my final project for FEWD_21.
 
-project website, capstone
+"Open Book" introduces a new concept in catering, coming to Louisville, KY in 2022.
 
-This is a work in progress for a new concept in catering, coming to Louisville, KY in 2022.
+The welcome page is the launchpad, links sendinng you to each line under the "Open Book" umbrella.  I have added a newsletter sign-up form.
 
-Initially, there is a welcome page, with links to each individual line of business underneath the name "Open Book".
+Vision will give you personal insight to why the creator developed this unique brand of personal service.
 
-There are different forms for requesting information for catering, confections and creations.
+Creations is the beginning of it all... featuring images from her scrapbook of cakes past. 
 
-Sample menus and photos will be added, as well as contact info on the main page.
+The Dinners page features a disappearing menu using Javascript embedded in the HTML and a form to identify dietary restrictions, as well as a selection menu of available genres.
+
+Confections is new in 2020, when she started the handmade chocolates line.  There is a request for special orders on this page.
+
+I used CSS on all logos, images and buttons. I added one media query for > 600px.  I used unordered lists for navigation and the ingredients on the confections page. I made one ordered list for the view/hide menu.  CSS also did the heavy work of formatting, addding colors and borders to make it pleasing to the eye.
+
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Your_GitHub_Username&theme=blue-green)
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=Your_GitHub_Username&show_icons=true)
