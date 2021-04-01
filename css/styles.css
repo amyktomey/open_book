@@ -64,9 +64,7 @@ nav {margin: 10px 15px 2px 15px;
 
 /* forms and buttons styling-------------------------------- */
 
-
 .form-setup,
-.restrict,
 .info,
 .other {
     display:inline-block;
@@ -88,24 +86,57 @@ button {
     padding: 10px;
     max-width: 50%;
     border-radius: 15px;
-    box-shadow:0 0 15px 4px rgb(243, 130, 224);
+/*    box-shadow:0 0 15px 4px rgb(243, 130, 224);   */
 }
 
-.contact {
+.contact-container {
+    display: flex;
     flex-direction: row;
-    align-content: space-between;
-    margin: 5px;
+    align-items: flex-start;
+    flex: auto;
+/*    width: fit-content;  */
 }
 
-.restrict {   
-    flex-direction: row;
-    align-content: flex-start;
+.name,
+.mail {
+    justify-content:space-around;
+}
+
+.label-input-group {
+    display: flex;
+        flex-direction: column;
+ /* margin: 10px 20px;
+    padding:10px;
+    border-radius: 10px;  */
+}
+
+.restrict-input-group {
+   display: flex;
+   flex-direction: row;
+   margin: 15px 20px;
+} 
+
+textarea {
+    width: 50%;
+    resize: vertical;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
-    margin: 5px 20px;
-}   
+    font-size: x-large;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(146, 210, 221);
+    margin-bottom: 15px;
+    border-radius: 10%; 
+    border: solid rgb(243, 130, 224) 3px;
+}
 
 /* logos, photos and docs ----------------------------------------- */
-
 .logo,
 .owner,
 .pan-logo {
@@ -115,30 +146,30 @@ button {
 
 .logo,
 .pan-logo {
-    max-height: auto;
+    /*max-height: auto; */
     max-width: 50%; 
     margin-top: 10px;
     border-radius: 7%;
-    justify-content: center;
-    align-content: center;
+    /*justify-content: center;
+    align-content: center;*/
 }
+/*
+.pan-logo {
+    border: solid rgb(243, 130, 224) 8px;
+}
+*/
 .owner {
-    border-radius: 45%;
-    max-height: 100px;
-    max-width: auto;
-}
-
-.cakes {
-    max-width: 75%;
+    border-radius: 50%;
     max-height: auto;
-    border: solid rgb(243, 130, 224) 3px;
-    margin-left: 15px;
-    border-radius: 25px;
-    margin: 25px;
-    flex-direction: row;
-    align-content: space-between;
+    max-width: 100%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%; 
+    border: solid rgb(243, 130, 224) 3px;
+}
 
 /* Pseudo-elements -------------------------------- */
 
@@ -146,51 +177,30 @@ button {
     font-weight: bold;
     font-size: 1.4em;
     font-style: italic;
-    color:solid rgb(243, 130, 224);
+    color:rgb(243, 130, 224);
     margin-bottom: 5px;
  }
  
  /* Media Queries ---------------------------------- */
 
- @media screen and (max-width: 320px) {
-    .logo,
-    .owner,
-    .pan-logo {
-        border: solid rgb(243, 130, 224) 3px;
-        max-width: 50%;
-        max-height: auto;
-        align-content: center;
-    }
-    .cakes {
-        flex-direction: column;
-        margin-bottom: 7px;
-        max-height: auto;
-        max-width: 60%;
-        align-content: center;
-    }
-}
-
-@media screen and (min-width: 601px) {
+ 
+@media screen and (min-width: 600px) {
     .logo,
     .owner,
     .pan-logo {
         border: solid rgb(243, 130, 224) 8px;
-        max-width: 30%;
-        max-height: auto;
-        align-content: center;
+        max-width: 20%;
+    /*    max-height: auto;   */
+        justify-content: center;
+        align-items: center;
     }
     .pan-logo {
-        max-width: 250px;
+        max-width: 200px;
+    }
+    img {
+        max-width: 500px;
+        max-height: auto;
+        Margin: 5px 15px;
     } 
-    .cakes {
-        max-height: 75%;
-        max-width: auto;
-        align-items: center; 
-        justify-content: space-evenly;
-    }
+    
 }
-/*
-@media screen and (min-width: 900px) {
-    orientation: landscape;
-    background-color: floralwhite;
-    }

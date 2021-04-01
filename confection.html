@@ -8,7 +8,7 @@
 </head>
 <body>
   <figure>
-    <img src="img/pandora-crop.jpg" alt="Silhouette of a woman opening the lid of a box" class='pan-logo'/>
+    <img src="img/pandora-crop.jpg" alt="Silhouette of a woman opening the lid of a box" class="pan-logo"/>
   </figure>
   <H1>Open Book Confections</H1>
   <br>
@@ -18,6 +18,7 @@
       These change with seasons, holidays and special occasions.
       <br>
       Open Book combines a variety of flavors including:
+    </p>
       <ul>
         <li>berries</li>
         <li>mint</li>
@@ -26,25 +27,25 @@
         <li>champagne</li>
         <li>bacon</li>
         </ul>
-    </p>
       <p>If you are looking for a specific combination, 
-        send us a Special Request. Tasting available before order completion. **
+        send us a Special Request. <br>Tasting available before order completion. **
       </p>
     </div>
-    <div class = "contact">
-      <form action="confection.html" method="post" >
+    <div class = "contact-container">
+      <form id="form" action="index.html" method="post"> 
+        <div class="label-input-group">
           <label for="name">Name:</label>      
           <input type="text" id="name" name="user_name">
-          <br>
-          <label for="email">Email:</label>
-          <input type="email" id="mail" name="user_email">
-          <br>
-          <label for="requests">Enter Special Requests Here:</label>
-          <textarea id="requests" name="special_requests"></textarea>
+         </div>
         <br>
-        <button type="submit">Send Request</button>
-      </form>
+          <div class="label-input-group">
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+        </div>
+      </form>    
     </div>
+    <br>
+      <button type="submit">Submit Request</button>
     <br>
     <nav>
       <ul>
@@ -57,7 +58,7 @@
 </body> 
 <footer>
   <p> **Advance notice is required for custom candies. 
-    All recipies are the property of “Open Book”.
+    All recipes are the property of “Open Book”.
   </p>
   <p> &copy; 2021, Open Book</p>
 </footer>

@@ -8,7 +8,8 @@
 </head>
 <body>
   <figure>
-    <img src="img/logo_catering.jpg" alt= "image of an open book with rays of light shining out from the pages" class="logo"/>
+    <img src="img/logo_catering.jpg" alt= "image of an open book with rays of light shining 
+    out from the pages" class="logo"/>
   </figure>  
 <h1>Open Book Catering</h1>
   <h2>Dinner Parties & Events</h2>
@@ -23,55 +24,106 @@
       no obligation quote. 
     </p>
   </div>
+
+  <!--Adding a disappearing menue-->
+<p>Click the "Hide" button to remove the Sample Menu:</p>
+<p>Click the "View" button to reveal the Sample Menu:</p>
+<div id="menu">
+  <h3>THAI MENU</h3>
+  <ol id="thai">
+    <li>Green Papaya Salad</li>
+    <li>Shredded papaya with fish sauce, lime juice, chiles</li>
+    <li>Red Curry</li>
+    <li>Hot liquid (made with seasoned chili paste) and shrimp served with jasmine rice</li>
+    <li>Tom Yam</li>
+    <li>Hot and Sour shrimp soup</li>
+    <li>Yam</li>
+    <li>A side salad of fresh herbs, protein of your choice(pork/shrimp) and dressing</li>
+    <li>Beef Guay Teow</li>
+    <li>Rice noodle soup with chunks of beef, topped with chiles and fish sauce</li>
+    <li>Tom Kha Gai</li>
+    <li>Coconut Chicken soup</li>
+    <li>Kai Jeow </li>
+  </ol>
+</div>
+
+  <button type = "button" onclick = "displayHide()">Hide</button>
+  <button type = "button" onclick = "displayShow()">View</button>
+      <script>
+      function displayHide() {
+        document.getElementById("thai") .style.display = "none";
+      }
+      function displayShow() {
+        document.getElementById("thai") .style.display = "block";
+      }
+      </script>
+<div>
   <h4>Tell Me More:</h4>
-    <div class = "form-setup">  
-      <form action="dinners.html" method="post" >
-        <label for="genre">Select Genre or Event:</label>
-        <select id="genre" name="genre">
-          <optgroup label="Genre"> 
-            <option value="fanatasy">Fantasy</option>
-            <option value="mythological">Mythology</option>
-            <option value="historical">History</option>
-            <option value="event">Events</option>
-          </optgroup>
-        </select>
-      </form> 
-    </div>
+  <div class = "form-setup">  
+    <form action="dinners.html" method="post" >
+      <label for="genre">Select Genre or Event:</label>
+      <select id="genre" name="genre">
+        <optgroup label="Genre"> 
+          <option value="fanatasy">Fantasy</option>
+          <option value="mythological">Mythology</option>
+          <option value="historical">History</option>
+          <option value="event">Events</option>
+        </optgroup>
+      </select>
+    </form> 
+  </div>
+</div>
     <div class = "restrict">   
-      <label>Dietary Restrictions:</label>
-        <input type="Checkbox" id="type" name="diabetic" value="diabetic">
-        <label for="type">Diabetic</label>
-        
-        <input type="Checkbox" id="type" name="keto" value="keto">
-        <label for="type">KETO</label>
-        
-        <input type="checkbox" id="type" name="gluten" value="gluten">
-        <label for="type">Gluten Free</label>
-        
-        <input type="Checkbox" id="type" name="lactose" value="lactose">
-        <label for="type">Lactose Intolerant</label>
-        
-        <input type="Checkbox" id="type" name="allergies" value="allergies">
-        <label for="type">Allergies</label>
-        
-        <input type="Checkbox" id="type" name="other" value="other">
-        <label for="type">Other</label>
-        
-        <label for="info" id="other" name="info" value="info"></label>
-        <textarea id="other" name="information">Specify:</textarea>
+    <label>Dietary Restrictions:</label>
+    <div class="restrict-input-group">
+      <input type="Checkbox" id="nosugar" name="diabetic" value="diabetic">
+      <label for="nosugar">  Diabetic</label>
     </div>
+
+    <div class="restrict-input-group">
+      <input type="Checkbox" id="ketodiet" name="keto" value="keto">
+      <label for="ketodiet">  KETO</label>
+    </div>
+
+    <div class="restrict-input-group"> 
+      <input type="checkbox" id="glutenfree" name="gluten" value="gluten">
+      <label for="glutenfree">  Gluten Free</label>
+    </div>  
+
+    <div class="restrict-input-group">
+      <input type="Checkbox" id="nodairy" name="lactose" value="lactose">
+      <label for="nodairy">  Lactose Intolerant</label>
+    </div>
+
+    <div class="restrict-input-group">
+      <input type="Checkbox" id="sneezers" name="allergies" value="allergies">
+      <label for="sneezers">  Allergies</label>
+    </div>
+
+    <div class="restrict-input-group"> 
+      <input type="Checkbox" id="nota" name="other" value="other">
+      <label for="nota">  Other</label>
+    </div> 
+    <textarea id="other" name="information"> Specify Other:</textarea>
+  </div>
   <br>
-    <div class= "contact ">
-      <label for="name">Name:</label>      
-      <input type="text" id="name" name="user_name">
+  <div class= "contact-container ">
+    <form id="form" action="index.html" method="post"> 
+      <div class="label-input-group">
+        <label for="name">Name:</label>      
+        <input type="text" id="name" name="user_name">
+       </div>
       <br>
-      <label for="email">Email:</label>
+      <div class="label-input-group">
+      <label for="mail">Email:</label>
       <input type="email" id="mail" name="user_email">
     </div>
-    <br>
-      <button type="submit">Send Request</button>
-    </div>
+  </form>
+       
+  </div>
   <br>
+    <button type="submit">Submit Request</button> 
+    <br>
   <nav>  
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -82,7 +134,7 @@
   </nav>
 </body>
 <footer>
-  <p>All recipies are the property of “Open Book”.</p>
+  <p>All recipes are the property of “Open Book”.</p>
   <p> &copy; 2021, Open Book</p>
 </footer>
 </html>
