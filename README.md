@@ -16,6 +16,4 @@ Confections is new in 2020, when she started the handmade chocolates line.  Ther
 I used CSS on all logos, images and buttons. I added one media query for > 600px.  I used unordered lists for navigation and the ingredients on the confections page. I made one ordered list for the view/hide menu.  CSS also did the heavy work of formatting, addding colors and borders to make it pleasing to the eye.
 
 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=amyktomey&theme=blue-green)
-
 ![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=amyktomey&show_icons=true)
