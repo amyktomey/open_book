@@ -3,7 +3,7 @@ This is my final project for FEWD_21.
 
 "Open Book" introduces a new concept in catering, coming to Louisville, KY in 2022.
 
-The welcome page is the launchpad, links sendinng you to each line under the "Open Book" umbrella.  I have added a newsletter sign-up form.
+The welcome page is the launchpad, links sending you to each line of business under the "Open Book" umbrella.  I have added a newsletter sign-up form.
 
 Vision will give you personal insight to why the creator developed this unique brand of personal service.
 
