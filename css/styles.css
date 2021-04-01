@@ -197,13 +197,12 @@ textarea {
           flex-direction:row;
           flex-wrap: wrap;
           justify-content: flex-start;
-      } 
+     } 
       .cakes {
         margin-bottom:15px; 
         max-width: 25%; /* changed from 100 */
         height: auto;
         border-radius: 10%; 
-        border: solid rgb(243, 130, 224) 3px;   
-    
-    
+        border: solid rgb(243, 130, 224) 3px;
+     }   
 }
