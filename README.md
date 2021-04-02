@@ -1,3 +1,7 @@
+I just found a message that what is working on my system is evidently NOT working on anyone else's system.  I am currently recoding to hopefullly fix the problem. 
+
+
+
 # open_book
 This is my final project for FEWD_21.
 
