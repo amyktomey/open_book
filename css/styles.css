@@ -15,7 +15,6 @@ footer {
     font-style: italic;
  }
  
-
 /* Headers -------------------------------- */
 
 h1, h2, h3, h4 {
@@ -205,4 +204,32 @@ textarea {
         border-radius: 10%; 
         border: solid rgb(243, 130, 224) 3px;
      }   
+}
+
+/* Media Query added from code pen ---------------------------------- */
+/* 
+@media screen and (min-width: 678px) {
+    .nav {
+        display: flex;
+        position: relative;
+        right: auto;
+        top: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .navlink {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+    }
+    .navlink a {
+        color: #ccc;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+    .burger {
+        font-size: 1.2em;
+        display: none;
+    }
 }
