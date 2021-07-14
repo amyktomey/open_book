@@ -21,6 +21,8 @@ h1, h2, h3, h4 {
     margin-left: 15px;
     font-style: italic;
     border-radius: 15px;
+    border-color: rgb(80, 163, 80);
+    border-width: 10px;
     width:fit-content;
 }
 
@@ -120,6 +122,7 @@ textarea {
     resize: vertical;
     border: rgb(243, 130, 224) 3px;
 }
+
 
 /* logos, photos and docs ----------------------------------------- */
 .logo,
