@@ -17,7 +17,7 @@
   <div class = "content-block">
     <p>Open Book Catering gives customers the option of three distict genres: Fantasy, Mythology, and History... 
       all inspired by books and stories in my collection. This ‘immersion experience’ will include costumes, décor, 
-      music and most importantly, food. Dining experiences will be served as a 3 to 5 course meal depending on 
+      music and most importantly, food. Dining experiences will be served as a 3 to 7 course meal depending on 
       package selected.
     <br>
       For more information on the memorable experience that awaits you, fill out the form below for a free, 
@@ -25,9 +25,9 @@
     </p>
   </div>
 
-  <!--Adding a disappearing menue-->
-<p>Click the "Hide" button to hide the Sample 7 Course meal:</p>
-<p>Click the "View" button to reveal the Sample 7 Course meal:</p>
+  <!--rework disappearing menu-->
+
+  <button type="button">Click Me</button>
 <div id="menu">
   <h3>THAI MENU</h3>
   <ol id="thai">
@@ -41,16 +41,6 @@
   </ol>
 </div>
 
-  <button type = "button" onclick = "displayHide()">Hide</button>
-  <button type = "button" onclick = "displayShow()">View</button>
-      <script>
-      function displayHide() {
-        document.getElementById("thai") .style.display = "none";
-      }
-      function displayShow() {
-        document.getElementById("thai") .style.display = "block";
-      }
-      </script>
 <div>
   <h4>Tell Me More:</h4>
   <div class = "form-setup">  
@@ -64,6 +54,8 @@
           <option value="event">Events</option>
         </optgroup>
       </select>
+
+  <!--This is where the estimate calculator goes-->
       <label for="quantity"> How many guests? </label>
       <input type="number" id="quantity" name="quantity" min="1" max="30">
     </form> 
@@ -128,6 +120,8 @@
       <li><a href="confection.html">Confections</a></li>
     </ul>
   </nav>
+  <script src="./js/validate.js"></script>
+  <script src="./js/catering.js"></script>
 </body>
 <footer>
   <p>All recipes are the property of “Open Book”.</p>
