@@ -29,21 +29,22 @@ h1, h2, h3, h4 {
 
 
 h1 {    
-    background-color: rgb(4, 104, 95);
+    background-color: rgb(5, 128, 117);
     font-size: 40px;
     color: rgb(3, 29, 31);
     font-weight: bold;
 }
 
 h2, h3, h4 {
+    background-color: rgb(160, 253, 245);
     float: inline-start;
     margin: 20px 0 10px 0;
     font-size: 25px;
-   
+    padding: 10px;
+
 } 
 h4 {
     font-size: 20px;
-    padding: 10px;
     margin-bottom: 5px;
 }
 
@@ -58,11 +59,14 @@ nav {margin: 10px 15px 2px 15px;
     display: inline-block;
     padding: 1rem;
 }
- li {
+li {
     margin: 5px 10px;
     justify-content: space-around;
- }
+}
 
+#menu {
+    display: none;
+}
 
 /* forms and buttons styling-------------------------------- */
 
@@ -123,7 +127,6 @@ textarea {
     resize: vertical;
     border: rgb(243, 130, 224) 3px;
 }
-
 
 /* logos, photos and docs ----------------------------------------- */
 .logo,
