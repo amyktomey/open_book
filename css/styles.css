@@ -21,8 +21,9 @@ h1, h2, h3, h4 {
     margin-left: 15px;
     font-style: italic;
     border-radius: 15px;
-    border-color: rgb(80, 163, 80);
-    border-width: 10px;
+    border-color: rgb(15, 83, 15);
+    border-width: 3px;
+    border-style: inset;
     width:fit-content;
 }
 
@@ -128,8 +129,7 @@ textarea {
 .logo,
 .pan-logo {
     border: solid rgb(243, 130, 224) 8px;
-   /* margin-left: 15px; */
-   display:flex;
+    display:flex;
     justify-content:space-evenly;
     align-content: center;
     max-width: 50%; 
@@ -207,32 +207,4 @@ textarea {
         border-radius: 10%; 
         border: solid rgb(243, 130, 224) 3px;
      }   
-}
-
-/* Media Query added from code pen ---------------------------------- */
-/* 
-@media screen and (min-width: 678px) {
-    .nav {
-        display: flex;
-        position: relative;
-        right: auto;
-        top: auto;
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 0;
-    }
-    .navlink {
-        display: block;
-        list-style-type: none;
-        margin: 0;
-    }
-    .navlink a {
-        color: #ccc;
-        text-decoration: none;
-        font-size: 1.2em;
-    }
-    .burger {
-        font-size: 1.2em;
-        display: none;
-    }
 }
