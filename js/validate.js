@@ -1,3 +1,16 @@
+// validate name
+// function isValidName(name) {
+//    const checkName = document.getElementById(name); 
+
+//    var filter = /^[A-Za-z]+$/.test(name);
+
+//      if(filter.test(checkName.value)){
+//           return true; 
+//      } else {
+//           alert('Please enter your name.');
+//      }
+//  }
+
 // validate email
 
 function validate(mail) {
@@ -9,6 +22,5 @@ function validate(mail) {
             return true; 
        } else {
             alert('Please enter a valid email address.');
-/*            return false; */
        }
 }

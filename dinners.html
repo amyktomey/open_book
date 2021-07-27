@@ -20,8 +20,7 @@
       music and most importantly, food. Dining experiences will be served as a 3 to 7 course meal depending on 
       package selected.
     <br>
-      For more information on the memorable experience that awaits you, fill out the form below for a free, 
-      no obligation quote. 
+      For more information on the memorable experience that awaits you, fill out the form below. 
     </p>
   </div>
 
@@ -42,7 +41,22 @@
 </div>
 
 <div>
-  <h4>Tell Me More:</h4>
+  <h4>Tell Me More:</h4> 
+  <!--This is where the estimate calculator goes-->
+  <div class = "dinnerEst">
+      <label for="guests"> How many guests? (max 30)</label>
+      <input type="number" id="guests" name="quantity" min="1" max="30">
+      <label for="courses?"> How many courses? (3-7)</label>
+      <input type="number" id="courses" name="quantity" min="3" max="7">
+     <!--put the esimate here, not in an alert-->
+  </div>
+<p> 
+  Depending on your entree, prices may vary... this is the starting point.
+  <br>
+  (For events with more than 30 guests, call Open Book at 502-123-4567 for an estimate.)
+</p>
+  
+<!-- set up the request more information form -->
   <div class = "form-setup">  
     <form action="dinners.html" method="post" >
       <label for="genre">Genre:</label>
@@ -55,9 +69,7 @@
         </optgroup>
       </select>
 
-  <!--This is where the estimate calculator goes-->
-      <label for="quantity"> How many guests? </label>
-      <input type="number" id="quantity" name="quantity" min="1" max="30">
+
 
     </form> 
   </div>
