@@ -4,10 +4,10 @@ VERIFY WHAT WORKS BEFORE EACH SUBMIT!!!!!]
 
 "Open Book" introduces a new concept in catering, coming to Louisville, KY in 2022.
 
-The welcome page is the launchpad, linking you to each line of business under the "Open Book" umbrella. Here you will find a registration form for newsletters and updates. Email validation added.
+The welcome page is the launchpad, linking you to each line of business under the "Open Book" umbrella. Here you will find a registration form for newsletters and updates. Name and email validation added.
 Vision will give you personal insight to why the creator developed this unique brand of personal service.
 
-Creations is the beginning of it all... featuring [a carousel of] images from a scrapbook of cakes past. [ there is a form that will get an estimate for cost, based on type and number of servings needed] 
+Creations is the beginning of it all... featuring a slideshow of images from a scrapbook of cakes past. [ there is a form that will get an estimate for cost, based on type and number of servings needed] 
 
 The Dinners page features a disappearing menu and a checklist to identify dietary restrictions.  [There is a form to request an estimate depending on the number of courses and number of guests.]
 
