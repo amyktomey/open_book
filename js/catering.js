@@ -1,5 +1,4 @@
-//update menu to a single button for view/hide, div id = menu
-
+//menu to a single button for view/hide, default hidden
 function toggle() {
      var element = document.getElementById('menu'); 
      if(element.style.display === "none") {
@@ -10,14 +9,33 @@ function toggle() {
 }
 
 // calculate a base estimate for a dinner party
-// guests * courses = totalEst
+// guests * courses = the estimate
 
-// function estimate() {
-//     let totalEst = document.getElementById('guests') * document.getElementById(courses);
-//      if(guests > 0) {
-//          return(`For a party of ${guests} served $(courses) course meal starts at ${totalEst}.`);
-//      } else {
-//          return('Please enter a number of guests.')
+let people = document.getElementById('guests');
+let courseCount = document.getElementById('courses');
+
+let plateCost = [
+     [3,6],
+     [4,10],
+     [5,14],
+     [6,18],
+     [7,22]
+]
+// do a for loop to create an estimate
+
+
+// function mealPP() {
+//      let totalEst =  people * mealCost;
+//      if (courseCount === 3) {
+//           mealCost = 6;
+//      }else {
+//           mealCost = (courseCount * 2.5);  
 //      }
-//      return estimate;
 // }
+// function estimate () { 
+// if(people > 0, courseCount > 2) {
+//      alert(`For a party of ${people} served a $(courseCount) course meal, price starts at ${totalEst}.`);
+// } else {
+//      alert('Please enter the number of guests.');
+//      } 
+// }  

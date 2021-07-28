@@ -24,10 +24,10 @@
     </p>
   </div>
 
-  <!--rework disappearing menu-->
+  <!--disappearing menu-->
   <button class='button'  onclick="toggle()">Click Me</button>
 
-<div id ="menu">
+<div id ="menu" style=display:none;>
   <h4>THAI MENU</h4>
   <ol id="thai">
     <li>Green Papaya Salad: Shredded papaya with fish sauce, lime juice, chiles </li>
@@ -46,9 +46,9 @@
   <div class = "dinnerEst">
       <label for="guests"> How many guests? (max 30)</label>
       <input type="number" id="guests" name="quantity" min="1" max="30">
-      <label for="courses?"> How many courses? (3-7)</label>
+      <label for="courses"> How many courses? (3-7)</label>
       <input type="number" id="courses" name="quantity" min="3" max="7">
-     <!--put the esimate here, not in an alert-->
+      <button onclick="estimate()" type="submit">Get Estimate</button>
   </div>
 <p> 
   Depending on your entree, prices may vary... this is the starting point.
@@ -68,9 +68,6 @@
           <option value="event">Events</option>
         </optgroup>
       </select>
-
-
-
     </form> 
   </div>
 </div>
@@ -123,8 +120,8 @@
        
   </div>
   <br>
-  <button onclick="validate('mail')" type="submit">Submit</button>
-    <br>
+  <button onclick="validate('mail'); isValidName('name')" type="submit">Submit</button>
+  <br>
   <nav>  
     <ul>
       <li><a href="index.html">Home</a></li>

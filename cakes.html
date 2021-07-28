@@ -5,6 +5,9 @@
   <link href="css/normalize.css" type="text/css" rel="stylesheet">
   <title>Open Book</title>
   <link href="css/styles.css" type="text/css" rel="stylesheet">
+  <link href="css\photo.css" type="text/css" rel="stylesheet">
+  
+
 </head>
   <body>
     <figure>
@@ -22,17 +25,54 @@
       </p> 
 <br>
 
-<div id = "cake_container" class = "cake-photos">
-    <img src="image\wedding_1.jpg" alt= "image of a white wedding cake decorated with pink and blue 
-    flowers and a pair of swans on top" class='cakes'/>
-    <img src="image\anniversary_25.jpg" alt= "image of a white wedding cake with a silver number 25 
-    in a wreath of white flowers on top." class='cakes'/>
-    <img src="image\grad_bear2.jpg" alt= "image of brown cartoon bear wearing a blue cap & gown for 
-    graduation." class='cakes'/>
-    <img src="image\honey-edit.jpg" alt= "image of Winnie the Pooh and Tigger, and the words 
-    'The Honey Has Arrived'." class='cakes'/>
-    <img src="image\engaged-edit.jpg" alt= "image of two pink hearts on a pink and white cake. Inside each heart is a name. One is Justin, the other is Mary." class='cakes'/>
-</div>
+<!-- Slideshow Container Div -->
+<div class="container">
+  
+    <!-- Full-width images with caption text -->
+
+    
+    <div class="image-sliderfade fade">
+      <img src="C:\Users\m0mon\OneDrive\Desktop\projects\open_book\image\wedding_1.jpg" alt= "image of a white wedding cake decorated with pink and blue 
+      flowers and a pair of swans on top" style="width:100%">
+      <div class="text">Wedding Cake</div>
+    </div>
+    
+    <div class="image-sliderfade fade">
+      <img src="C:\Users\m0mon\OneDrive\Desktop\projects\open_book\image\anniversary_25.jpg" alt= "image of a white wedding cake with a silver number 25 
+      in a wreath of white flowers on top." style="width:100%">
+      <div class="text">Anniversary Cake</div>
+    </div>
+    
+    <div class="image-sliderfade fade">
+      <img src="C:\Users\m0mon\OneDrive\Desktop\projects\open_book\image\grad_bear2.jpg" alt= "image of brown cartoon bear wearing a blue cap & gown for 
+      graduation."style="width:100%">
+      <div class="text">Graduation Cake</div>
+    </div>
+    
+    <div class="image-sliderfade fade">
+      <img src="C:\Users\m0mon\OneDrive\Desktop\projects\open_book\image\honey-edit.jpg"  alt= "image of Winnie the Pooh and Tigger, and the words 
+      'The Honey Has Arrived'." style="width:100%">
+      <div class="text">Baby Shower Cake</div>
+    </div>
+
+    <div class="image-sliderfade fade">
+        <img src="C:\Users\m0mon\OneDrive\Desktop\projects\open_book\image\engaged-edit.jpg" alt= "image of two pink hearts on a pink and white cake. Inside each heart is a name. One is Justin, the other is Mary."style="width:100%">
+        <div class="text">Engagement Cake</div>
+      </div>
+    
+  </div>
+  <br>
+    
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
+<!-- insert the instant estimate here -->
 
 <br>
 
@@ -63,7 +103,7 @@
       </form>
     </div>
   <br>
-  <button onclick="validate('mail')" type="submit">Submit</button>
+  <button onclick="validate('mail'); isValidName('name')" type="submit">Submit</button>
   <br>
     <nav>
       <ul>
@@ -74,6 +114,7 @@
       </ul>
     </nav>
     <script src="./js/validate.js"></script>
+    <script src="js\slides.js"></script>
   </body> 
   <footer>
    <!-- <a href="https://www.freepik.com/vectors/infographic">Infographic vector created by freepik - www.freepik.com</a>-->
