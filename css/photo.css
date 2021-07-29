@@ -1,5 +1,4 @@
 
-// CSS code
 * 
 {
   box-sizing: border-box;
@@ -69,7 +68,7 @@ img
 .fade 
 {
   -webkit-animation-name: fade-image;
-  -webkit-animation-duration: 3.5s;
+  -webkit-animation-duration: 2.5s;
   animation-name: fade-image;
   animation-duration: 2.5s;
 }
