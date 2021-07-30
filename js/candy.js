@@ -1,4 +1,17 @@
-// on confection page set up a request asking for flavors... 
-// that responds with a list of available candies
-// pull list... array? when requesting a flavor, 
-//if not available respond flavor unavailable, please put in a special request.
+function totCost() {
+    boxes = document.getElementById("boxes").value;
+    count = boxes * 6;
+    totCost = boxes * count;
+   
+    if(boxes > 0) {              
+         cost = boxes * count;
+
+         alert(`${boxes} (${count}) will cost $${Totost}.`);
+         }else {
+         alert('Please enter the number of boxes');         
+         console.log(boxes);
+         console.log(count);
+        }
+     }
+
+

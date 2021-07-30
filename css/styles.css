@@ -25,6 +25,7 @@ h1, h2, h3, h4 {
     border-width: 3px;
     border-style: inset;
     width:fit-content;
+    padding: 10px;
 }
 
 
@@ -40,8 +41,6 @@ h2, h3, h4 {
     float: inline-start;
     margin: 20px 0 10px 0;
     font-size: 25px;
-    padding: 10px;
-
 } 
 h4 {
     font-size: 20px;
@@ -61,7 +60,7 @@ nav {margin: 10px 15px 2px 15px;
 }
 li,
 .dinnerEst {
-    margin: 5px 10px;
+    margin: 10px;
     justify-content: space-around;
 }
 
@@ -99,7 +98,7 @@ button {
 }
 
 .name,
-.mail {
+.email {
     justify-content:space-around;
 }
 
@@ -114,10 +113,12 @@ button {
    margin: 15px 20px;
 } 
 
-textarea {
+textarea,
+.specialRequest {
     width: 50%;
     resize: vertical;
     border: rgb(243, 130, 224) 3px;
+    margin-top: 25px;
 }
 
 /* logos, photos and docs ----------------------------------------- */

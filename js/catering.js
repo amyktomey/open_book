@@ -15,19 +15,11 @@ function estimate() {
      courseCount = document.getElementById("courses").value;
      plateCost = courseCount * 2.5; 
 
-     if(people > 0) {  
-                         
-          totalEst = plateCost * people
-     
-//          document.getElementById("totalEst").innerHTML = totalEst;
-
-console.log(people);
-console.log(courseCount);
-console.log(plateCost);        
-console.log(totalEst);
+     if(people > 0, courseCount > 2) {              
+          totalEst = plateCost * people;
 
           alert(`For a party of ${people} served a ${courseCount} course meal, price starts at $${totalEst}.`);
-          } else {
-          alert('Please enter the number of guests.');
-          } 
-}  
+          }else {
+          alert('Please enter the number of guests and/or courses.');         
+          }
+      }

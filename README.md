@@ -9,12 +9,13 @@ Vision will give you personal insight to why the creator developed this unique b
 
 Creations is the beginning of it all... featuring a carousel of images from a scrapbook of cakes past. [there is a form that will get an estimate for cost, based on type and number of servings needed] 
 
-The Dinners page features a disappearing menu and a checklist to identify dietary restrictions.  A calculator provides an estimate depending on the number of courses and number of guests.
+The Dinners page features a hidden menu and a checklist to identify dietary restrictions.  A calculator provides an estimate depending on the number of courses and number of guests.
 
-Confections is new in 2020, when she started the handmade chocolates/bonbons line. [Visitors can enter flavors to check availability, and submit a special request if their flavor is unavailble.]
+Confections is new in 2020, when she started the handmade chocolates/bonbons line. 
 
-[edit this below...]
 I used CSS on all logos, images and buttons. I added one media query for > 600px.  I used unordered lists for navigation and the ingredients on the confections page. I made one ordered list for the view/hide menu.  CSS did the heavy work of formatting and adding colors and borders to make it pleasing to the eye. JS runs the carousel, forms and information collection.
+
+I opened the website in Chrome, Edge, and Avast (a secured browser) for testing.
  
 
 
