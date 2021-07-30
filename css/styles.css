@@ -161,6 +161,43 @@ textarea,
  }
  
  /* Media Queries ---------------------------------- */
+@media screen and (max-width: 400px){
+    h1, h2, h3, h4 {
+        max-height: 10%;
+
+    }
+
+    .logo,
+    .owner,
+    .pan-logo {
+        border: solid rgb(243, 130, 224) 8px;
+        max-width: 40%;
+    /*    max-height: auto;   */
+        justify-content: center;
+        align-items: center;
+    }
+    .pan-logo {
+        max-width: 125px;
+    }
+    img {
+        max-width: 75%;
+        max-height: auto;
+        Margin: 5px 15px;
+    }
+    .cake_container {
+        display: flex;
+          flex-direction:row;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+     } 
+      .cakes {
+        margin-bottom:15px; 
+        max-width: 25%; 
+        height: auto;
+        border-radius: 10%; 
+        border: solid rgb(243, 130, 224) 3px;
+     }   
+}   
 
  
 @media screen and (min-width: 600px) {
