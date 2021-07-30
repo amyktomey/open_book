@@ -100,14 +100,16 @@ button {
     flex: auto;
 }
 
-.name,
-.mail {
-    justify-content:space-around;
+#name,
+#mail,{
+ margin-bottom: 20px   
 }
 
-.label-input-group {
+#label-input-group {
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
+    margin: 15 0;
+    justify-content:space-around;
 }
 saveFile,
 .restrict-input-group {
