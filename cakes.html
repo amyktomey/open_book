@@ -71,40 +71,30 @@
     <span class="dot"></span> 
     <span class="dot"></span> 
   </div>
-
-<!-- insert the instant estimate here -->
-
 <br>
+<!-- testing section of code here: -->
 
-    <div class = "form-setup">
-      <label for="occ_type">Occasion:</label>
-      <select id="occ_type" name="special">
-        <optgroup label="Pick One"> 
-            <option value="birthday">Birthday</option>
-            <option value="wedding">Wedding</option>
-            <option value="anniversary">Anniversay</option>
-            <option value="shower">Showers</option>
-            <option value="other">Other Occasions</option>
-        </optgroup>
-      </select>  
-    </div>
-  <br>
-      <div class= "contact-container ">
-        <form id="form" action="index.html" method="post"> 
-          <div class="label-input-group">
-            <label for="name">Name:</label>      
-            <input type="text" id="name" name="user_name">
-           </div>
-  <br>
-          <div class="label-input-group">
-          <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email">
-        </div>
-      </form>
-    </div>
-  <br>
-  <button onclick=" isValidName('name'); validate('mail')" type="submit">Submit</button>
-  <br>
+<div>
+  <input type="text" id="name" placeholder="Enter your name" />
+</div>
+<div>
+  <input type="text" id="mail" placeholder="Enter your email address" />
+</div>
+<div>
+  <select id="occ_type">
+      <option value="birthday">Birthday</option>
+      <option value="wedding">Wedding</option>
+      <option value="anniversary">Anniversay</option>
+      <option value="shower">Showers</option>
+      <option value="other">Other Occasions</option
+  </select>
+</div>
+<div>
+  <textarea id="msg" name="msg" placeholder="Enter the theme or colors. For wedding cakes, give number of guests and how many tiers (not including the top tier)." style="height:100px"></textarea>
+</div>
+<div>
+  <button onclick="isValidName('name'); validate('mail'); saveFile()" type="submit">Save data to file</button>
+  </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -117,7 +107,6 @@
     <script src="js\cakes.js"></script>
   </body> 
   <footer>
-   <!-- <a href="https://www.freepik.com/vectors/infographic">Infographic vector created by freepik - www.freepik.com</a>-->
     <p>All recipes are the property of “Open Book”.</p>
     <p>&copy;2021, Open Book</p>
   </footer>

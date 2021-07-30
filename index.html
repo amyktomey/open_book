@@ -30,10 +30,10 @@
           <br>
           <label for="mail">Email:</label>
           <input type="email" id="mail" name="user_email">
-        <button onclick ="validate('mail'); isValidName('name')" type="submit">Sign Up</button>
       </form>  
     </div>
-    <script src="./js/validate.js"></script>
+  <button onclick="isValidName('name'); validate('mail'); saveFile()" type="submit">Save data to file</button>
+  <script src="./js/validate.js"></script>
   </body>
   <footer>
     <p>&copy;2021, Open Book</p>

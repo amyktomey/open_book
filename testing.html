@@ -1,0 +1,40 @@
+<body>
+    <div>
+        
+        <!--Add few elements to the form-->
+
+        <div>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div>
+            <input type="text" id="mail" placeholder="Enter your email address" />
+        </div>
+        <div>
+            <select id="occ_type">
+                <option value="fanatasy">Fantasy</option>
+                <option value="mythological">Mythology</option>
+                <option value="historical">History</option>
+                <option value="event">Events</option>
+            </select>
+        </div>
+        <div>
+            <select id="restrict">
+                <input type="Checkbox"> Diabetic</label>
+                <input type="Checkbox"> KETO</label>
+                <input type="Checkbox"> Gluten Free</label>
+                <input type="Checkbox"> Lactose Intolerant</label>
+                <input type="Checkbox"> Allergies (Specify)</label>
+                <input type="Checkbox"> Other (Specify)</label>
+            </select>
+        </div>
+        <div>
+            <textarea id="msg" name="msg" placeholder="Add allergies and other restrictions here." style="height:100px"></textarea>
+        </div>
+        <div>
+            <button onclick="sValidName('name'); validate('mail'); saveFile()" type="submit">Save data to file</button>
+            <!-- <input type="button" id="bt" value="" onclick="saveFile()" /> -->
+        </div>
+
+    </div>
+</body>
+
