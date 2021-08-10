@@ -101,8 +101,9 @@ button {
 }
 
 #name,
-#mail,{
- margin-bottom: 20px   
+#mail,
+#restrict {
+    margin-bottom: 20px;   
 }
 
 #label-input-group {
